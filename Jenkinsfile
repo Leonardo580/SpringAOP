@@ -1,6 +1,6 @@
 pipeline{
     agent any 
-    stages: {
+    stages {
         stage("test mvn"){
             steps: {
                 sh """mvn -version"""
