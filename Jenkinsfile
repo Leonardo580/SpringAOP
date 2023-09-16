@@ -1,8 +1,8 @@
-pipeline{
+pipeline {
     agent any 
     stages {
-        stage("test mvn"){
-            steps: {
+        stage("test mvn") {
+            steps {
                 sh """mvn -version"""
             }
         }
